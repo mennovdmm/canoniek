@@ -5,3 +5,8 @@
 *.token
 secrets/
 .DS_Store
+
+# Local backups — e.g. the Canon orientation the bootstrap saves before writing
+# your filled-in core. Your instantiated CLAUDE.md is tracked; its .bak is not.
+*.bak
+CLAUDE.md.bak
