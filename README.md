@@ -46,5 +46,10 @@ interview, fill in, grow it as you go.
   - [3.3 — Templates](3-execution/3.3-templates/): skill / rulebook / state / registry templates
   - [3.4 — Bootstrap](3-execution/3.4-bootstrap/): the interview that generates your first core
 
+## Contributing
+Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). The one rule: ship the schema, not the data
+(generic structure and grounded patterns only, never anyone's content or secrets). By participating you agree to
+the [Code of Conduct](CODE_OF_CONDUCT.md).
+
 ## License
 See [LICENSE](LICENSE).
