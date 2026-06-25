@@ -1,7 +1,7 @@
 # 3 — Execution
 
 **Capabilities, lazy-loaded.** The repeatable ways of working and the things that run. This layer ships the
-**formats and one golden anonymized example per type** — never the concrete Huisraad skills/processes (those
+**formats and one golden anonymized example per type** — never anyone's concrete skills/processes (those
 are use-case content). It also holds the **bootstrap interview** that generates a user's first core.
 
 - [3.1 — Skills](3.1-skills/) — the skill format + a golden example.
