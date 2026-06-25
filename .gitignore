@@ -1,0 +1,7 @@
+# No secrets, ever — your data lives outside this repo (see SETUP.md)
+.env
+*.key
+*.pem
+*.token
+secrets/
+.DS_Store
