@@ -1,6 +1,8 @@
 <!--
-  SKILL-TEMPLATE.md — copy this to skills/<skill-name>/SKILL.md and fill it in.
-  Sister template: RULEBOOK-TEMPLATE.md (every skill also gets a rulebook.md).
+  SKILL-TEMPLATE.md — copy this to .claude/skills/<skill-name>/SKILL.md and fill it in.
+  Skills MUST live under .claude/skills/<name>/ for Claude Code to auto-discover them; the numbered
+  3-execution/ docs are the human reference, not the loaded location.
+  Sister template: RULEBOOK-TEMPLATE.md (every skill also gets a rulebook.md, next to SKILL.md).
   Delete these comment blocks in your real skill; they're guidance only.
 
   HARD STANDARD:
@@ -29,7 +31,7 @@ when_to_use: <short trigger summary in one sentence — separate from descriptio
 
 ## Scope — what this IS and ISN'T
 - **Is:** <the core of this skill>.
-- **Isn't:** <what doesn't belong here> → use [`skills/<other-skill>/`](../<other-skill>/SKILL.md) instead.
+- **Isn't:** <what doesn't belong here> → use `.claude/skills/<other-skill>/` instead.
 <!-- Skills bound each other explicitly (relative links) so no overlap/duplication arises. -->
 
 ## Tools

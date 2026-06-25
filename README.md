@@ -18,10 +18,17 @@ interview, fill in, grow it as you go.
 
 ## How to use this repo
 1. Read it top to bottom — it's numbered like chapters.
-2. Open it in Claude Code and run the **bootstrap interview** ([`3-execution/3.4-bootstrap/`](3-execution/3.4-bootstrap/)).
-   It asks who you are and generates your first `core`.
+2. **Open it in Claude Code** — it auto-loads [`CLAUDE.md`](CLAUDE.md) and discovers the skills under
+   [`.claude/skills/`](.claude/skills/). Run the **bootstrap** skill ("set me up"): it asks who you are and
+   **writes your first `core` into the root `CLAUDE.md`** (explained at
+   [`3-execution/3.4-bootstrap/`](3-execution/3.4-bootstrap/)).
 3. Fill in your layers, build your first skill, let the learning loop run.
-4. See [`SETUP.md`](SETUP.md) for the one hard rule: **your data lives outside this repo.**
+4. See [`SETUP.md`](SETUP.md) for the full getting-started + the one hard rule: **your data lives outside this
+   repo.**
+
+> **Two layers, by design:** `CLAUDE.md` + `.claude/` are the thin *runnable* machine layer Claude Code loads;
+> the numbered `1-core/ … 3-execution/` docs are the *handbook* you read and check. That split is the model
+> itself — ship the schema, not the data.
 
 ## Table of contents
 - **[1-core/](1-core/)** — the mindset (always loaded, lean)
