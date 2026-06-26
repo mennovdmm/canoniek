@@ -14,21 +14,26 @@ rebuildable, and it's what keeps anything private out of a public repo. See
 Canon runs entirely on **your own accounts** — no vendor lock-in, no hidden costs, nothing hosted by anyone
 else. Be honest with yourself about these three: without them, you won't get off the ground.
 
-1. **Claude Code on a capable plan.** Canon is built for [Claude Code](https://claude.com/claude-code) (it
+1. **A computer to run it on — modest is fine.** It does **not** need to be powerful: the model runs on Claude
+   (in the cloud), so your machine just runs a terminal, git, and a few lightweight tool servers. An older
+   **Mac mini** or a **somewhat dated MacBook** is plenty (roughly 8 GB RAM works, 16 GB is comfortable;
+   macOS is the easy path, but Linux or Windows works too). Don't buy a workstation for this.
+2. **Claude Code on a capable plan.** Canon is built for [Claude Code](https://claude.com/claude-code) (it
    auto-loads the root `CLAUDE.md` and discovers skills under `.claude/skills/`). Real agentic work — standing
    agents, research, drafting — uses a lot of capacity, so a **substantial subscription is strongly
    recommended** (e.g. Claude Max); a minimal plan stalls quickly. It runs on your subscription — **no
    expensive API billing needed.**
-2. **A workspace where your work lives.** The place your knowledge, files and mail already live —
+3. **A workspace where your work lives.** The place your knowledge, files and mail already live —
    **Google Workspace, Microsoft 365, or similar.** Canon manages *your* content there; it stays yours and
    external to this repo.
-3. **Git and a host (e.g. GitHub).** You clone Canon and version *your* instance. The structure is versioned;
+4. **Git and a host (e.g. GitHub).** You clone Canon and version *your* instance. The structure is versioned;
    your data stays external (see the one hard rule below).
 
 **Grows with you (not a barrier to starting):**
 - **Tool connections (MCPs)** to your stack (drive, mail, calendar, CRM…). You do **not** wire these all up
   front — the bootstrap and the "there must be an MCP for this" reflex add them as real needs appear.
-- **An always-on machine** if you want standing agents running around the clock. You can start on your laptop.
+- **An always-on machine** if you want standing agents running around the clock — a **Mac mini** left running
+  is the classic cheap choice. You can start on the laptop you already have and add this later.
 
 **Always:** **no secrets in version control** — credentials live in your environment, never in the repo.
 
