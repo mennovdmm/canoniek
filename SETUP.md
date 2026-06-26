@@ -10,12 +10,27 @@ databases, drive) and is wired in per user. That separation is what makes an ins
 rebuildable, and it's what keeps anything private out of a public repo. See
 [1.1 §8 ship-the-schema](1-core/1.1-the-model.md).
 
-## Prerequisites
-- **[Claude Code](https://claude.com/claude-code)** — Canon runs as a Claude Code project (it auto-loads the
-  root `CLAUDE.md` and discovers skills under `.claude/skills/`).
-- **A home for your external data** — wherever your knowledge, state and files will live (a drive, a database,
-  a store). You don't need it fully set up to start; the bootstrap helps you decide.
-- **No secrets in the repo** — keep credentials in your environment, never in version control.
+## Prerequisites — what you actually need to start
+Canon runs entirely on **your own accounts** — no vendor lock-in, no hidden costs, nothing hosted by anyone
+else. Be honest with yourself about these three: without them, you won't get off the ground.
+
+1. **Claude Code on a capable plan.** Canon is built for [Claude Code](https://claude.com/claude-code) (it
+   auto-loads the root `CLAUDE.md` and discovers skills under `.claude/skills/`). Real agentic work — standing
+   agents, research, drafting — uses a lot of capacity, so a **substantial subscription is strongly
+   recommended** (e.g. Claude Max); a minimal plan stalls quickly. It runs on your subscription — **no
+   expensive API billing needed.**
+2. **A workspace where your work lives.** The place your knowledge, files and mail already live —
+   **Google Workspace, Microsoft 365, or similar.** Canon manages *your* content there; it stays yours and
+   external to this repo.
+3. **Git and a host (e.g. GitHub).** You clone Canon and version *your* instance. The structure is versioned;
+   your data stays external (see the one hard rule below).
+
+**Grows with you (not a barrier to starting):**
+- **Tool connections (MCPs)** to your stack (drive, mail, calendar, CRM…). You do **not** wire these all up
+  front — the bootstrap and the "there must be an MCP for this" reflex add them as real needs appear.
+- **An always-on machine** if you want standing agents running around the clock. You can start on your laptop.
+
+**Always:** **no secrets in version control** — credentials live in your environment, never in the repo.
 
 ## Run the bootstrap
 1. Clone the repo and open the folder in Claude Code.
