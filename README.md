@@ -35,6 +35,7 @@ interview, fill in, grow it as you go.
   - [1.1 — The model](1-core/1.1-the-model.md): the three-part memory unit, the two movements, ship-the-schema
   - [1.2 — The mindset](1-core/1.2-mindset.md): the constitution template (the rules + way of working)
   - [1.3 — Identity placeholders](1-core/1.3-identity-placeholders.md): the slots the bootstrap fills in
+  - [1.4 — Context management](1-core/1.4-context-management.md): the compaction discipline — how context survives
 - **[2-system/](2-system/)** — the builder role: how the system safely extends and watches itself
   - [2.1 — System role](2-system/2.1-system-role.md)
   - [2.2 — Build protocol](2-system/2.2-build-protocol.md): classify → home → registry → watch

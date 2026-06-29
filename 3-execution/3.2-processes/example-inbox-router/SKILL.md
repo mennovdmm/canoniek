@@ -28,6 +28,14 @@ would be a skill.) No runner = no process.
 - **Action:** for each new item → determine client/topic → append it to that agent's inbox → nudge the agent.
 - **Draft-first:** it never replies or sends; it only *delivers* work.
 
+## Routing discipline (two rules that prevent cross-contamination)
+- **Route only to registered, canonical agents — never to ad-hoc/scratch sessions.** A distributor that can
+  deliver to a throwaway session will eventually deliver a client's work into the wrong, unmanaged place.
+  Resolve the target against the agent registry; if there's no registered home, hold it, don't improvise.
+- **Watch for case-insensitive filename collisions** in per-session state/inbox files. On a case-insensitive
+  filesystem, two sessions whose names differ only in case share the *same* file → one agent's inbox bleeds
+  into another's. Normalize names; treat a case-only difference as the same target, not two.
+
 ## Definition of Done (process extras)
 - [ ] Runner/schedule configured.
 - [ ] **Health-check** — a check that confirms the runner ran and processed items (a stale runner = a flag).
